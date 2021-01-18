@@ -1,0 +1,52 @@
+{
+  "locations": [
+    {
+      "locationId": "locationId 1",
+      "description": "description 1",
+      "actions": [
+        {
+          "nextLocationId": "locationId 2",
+          "description": "description 11",
+          "consequences": "consequences 11"
+        },
+        {
+          "nextLocationId": "locationId 3",
+          "description": "description 12",
+          "consequences": "consequences 12"
+        }
+      ]
+    },
+    {
+      "locationId": "locationId 2",
+      "description": "description 2",
+      "actions": [
+        {
+          "nextLocationId": "locationId 1",
+          "description": "description 21",
+          "consequences": "consequences 21"
+        },
+        {
+          "nextLocationId": "locationId 3",
+          "description": "description 22",
+          "consequences": "consequences 22"
+        }
+      ]
+    },
+    {
+      "locationId": "locationId 3",
+      "description": "description 3",
+      "actions": [
+        {
+          "nextLocationId": "locationId 1",
+          "description": "description 31",
+          "consequences": "consequences 31"
+        },
+        {
+          "nextLocationId": "locationId 2",
+          "description": "description 32",
+          "consequences": "consequences 32"
+        }
+      ]
+    }
+  ]
+}
